@@ -1,0 +1,16 @@
+/* div {
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+} */
+
+section {
+    font-size: 15px;
+}
+
+div {
+    font-size: 2rem;
+}

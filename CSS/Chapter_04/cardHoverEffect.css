@@ -1,0 +1,27 @@
+.card {
+    width: 200px;
+    height: 230px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.description > h3, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px #000000;
+
+}

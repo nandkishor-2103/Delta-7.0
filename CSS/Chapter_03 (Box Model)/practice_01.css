@@ -1,0 +1,25 @@
+.parent-div {
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+.child-div {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#red-color {
+    background-color: red;
+}
+
+#yellow-color {
+    background-color: yellow;
+}
+
+#green-color {
+    background-color: green;
+}

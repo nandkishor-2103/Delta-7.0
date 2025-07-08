@@ -1,0 +1,45 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    background-color: limegreen;
+    text-align: center;
+}
+
+#static {
+    background-color: red;
+    position: static; /* No position will be change, it remain same*/
+    top: 100px;
+    left: 100px;
+}
+
+
+#relative {
+    background-color: yellow;
+    position: relative; /* relative to itself (this property change the position from where it stand in current scenario)*/
+    top: 100px;
+    left: 100px;
+}
+
+#absolute {
+    background-color: hotpink;
+    position: absolute; /* relative to it's closest positioned ancestors/ parent (if ancestor have a position) */
+    top: 100px;
+    left: 100px;
+}
+
+#fixed {
+    background-color: red;
+    position: fixed; /* it fixed on the screen where the position is mentioned*/
+    bottom: 50px;
+    right: 100px;
+}
+
+#sticky {
+    background-color: cornflowerblue;
+    position: sticky; /* it stick on the screen where the position is mentioned*/
+    bottom: 100px;
+    right: 100px;
+}
