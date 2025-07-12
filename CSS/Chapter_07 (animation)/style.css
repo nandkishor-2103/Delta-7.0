@@ -1,0 +1,68 @@
+.box {
+    width: 900px;
+    height: 100px;
+    background-color: #119997;
+    /* animation-name: colorAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    animation: widthState 3s ease-in 0s 2 alternate-reverse;
+}
+
+@keyframes widthState {
+    0% {
+        width: 100px;
+        background-color: red;
+    }
+    25% {
+        width: 300px;
+        background-color: cornflowerblue;
+    }
+    50% {
+        width: 500px;
+        background-color: #af0ea4;
+    }
+    75% {
+        width: 700px;
+        background-color: goldenrod;
+    }
+    100% {
+        width: 900px;
+        background-color: blue;
+    }
+}
+
+@keyframes widthAnimate {
+    from {
+        width: 100px;
+        font-size: 20px;
+        background-color: red;
+    }
+    to {
+        width: 800px;
+        font-size: 40px;
+        background-color: rgb(216, 245, 156);
+        border-radius: 20px;
+    }
+}
+
+@keyframes fontAnimation {
+    form {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimation {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: rgb(216, 245, 156);
+    }
+}

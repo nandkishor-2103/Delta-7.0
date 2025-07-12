@@ -1,0 +1,12 @@
+.box {
+    width: 100vw;
+    height: 100vh;
+    background-color: #808080;
+    border-radius: 30px;
+}
+
+@media (max-width: 500px) {
+    .box {
+        background-color: #119997;
+    }
+}
