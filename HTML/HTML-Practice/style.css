@@ -1,0 +1,33 @@
+.container {
+    margin: 50px;
+    display: flex;
+}
+
+.content {
+    text-align: center;
+    line-height: 0px;
+    margin: 0 0 0 100px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+table, thead, tr, th {
+    margin: 50px;
+    text-align: left;
+}
+
+th {
+    padding: 0 0 0 10px;
+}
+
+table, tbody, tr, td {
+    border: 2px solid black;
+}
+
+.row-gap {
+    margin-top: 100px;
+}
+
