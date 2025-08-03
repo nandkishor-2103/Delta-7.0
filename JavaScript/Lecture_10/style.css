@@ -1,0 +1,29 @@
+/* body {
+  text-align: center;
+}
+
+div {
+  width: 500px;
+  height: 100px;
+  border: 2px solid black;
+  margin: auto;
+}
+
+button {
+  margin-bottom: 20px;
+  color: c;
+}
+
+p {
+  cursor: pointer;
+} */
+
+textarea {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
