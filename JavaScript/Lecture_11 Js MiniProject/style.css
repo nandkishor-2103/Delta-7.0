@@ -1,0 +1,26 @@
+/* div {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.inner-div {
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+} */
