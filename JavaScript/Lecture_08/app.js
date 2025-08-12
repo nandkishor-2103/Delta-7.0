@@ -154,13 +154,13 @@ let arr = [1, 2, 4, 5,  6, 7, 8, 9];
 /* let ans  = Math.min(...arr);
 console.log(ans);
 console.log(...arr);
-console.log(..."apna college");
- */
+console.log(..."apna college"); */
 
 
-// let newArr = [...arr];
 
-/* const data = {
+/* let newArr = [...arr];
+
+const data = {
     email : "nandkishor@gmail.com",
     password : "learner@21Usha"
 };
@@ -174,7 +174,7 @@ console.log(dataCopy); */
 
 // ? Rest
 
-/* function sum(...theArgs) {
+function sum(...theArgs) {
   let total = 0;
   let i = 0;
   for (args of theArgs) {
@@ -187,7 +187,7 @@ console.log(dataCopy); */
 }
 
 
-console.log(sum(1, 2, 3, 4, 5)); */
+console.log(sum(1, 2, 3, 4, 5));
 
 
 //? Destructuring
@@ -201,7 +201,7 @@ console.log(others); */
 
 
 // ? Destructuring object
-
+/* 
 const student = {
     name : "Radha",
     age : 21,
@@ -225,7 +225,7 @@ console.log(city);
 
 // assign student to new property and storing into some variable
 let {city: place = "Pune"} = student
-console.log(place);
+console.log(place); */
 
 
 
