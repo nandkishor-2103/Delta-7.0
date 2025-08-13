@@ -39,4 +39,3 @@ btn.addEventListener("click", async () => {
 
   showColleges(collgesArray);
 });
-province
